@@ -1,0 +1,24 @@
+{
+  "name": "Readme-Generator",
+  "version": "1.0.0",
+  "description": "The motivation to create a readme generator is to be able to create the readme by using the responeses from a user.",
+  "main": "index.js", 
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RyRyIT/Readme-Generator.git"
+  },
+  "keywords": [],
+  "author": "Ryan Lackey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RyRyIT/Readme-Generator/issues"
+  },
+  "homepage": "https://github.com/RyRyIT/Readme-Generator#readme",
+  "dependencies": {
+    "inquirer": "^7.3.3"
+  }
+}

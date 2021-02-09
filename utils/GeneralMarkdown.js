@@ -1,6 +1,8 @@
-
+// function to generate markdown for README
+function generateMarkdown(data) {
+    return `
     
-  # ReadMe Generator
+  # ${data.appname}
   
   ![project image](./imgs/inaction.png)
   
@@ -13,23 +15,26 @@
   * [Questions](#questions)
   
   ## Description
-  This quickly creates a Readme for projects 
+  ${data.description}
   
   ## Installation Instructions
-  By cloning the code from the repo and following the promots in the terminal once you have the everything installed
+  ${data.installation}
   
   ## Usage Information
-  Simply Put node index in the terminal and answer the questions
+  ${data.usage}
   
   ## License
-  ISC
+  ${data.license}
   
   ## Contributors
-  Ryan Lackey
+  ${data.contributors}
   
   ## Questions
   Contact me:
   
-  Github: [https://github.com/RyRyIT](https://github.com/RyRyIT)
-  Email: [lackeyr13@gmail.com](lackeyr13@gmail.com)
+  Github: [https://github.com/${data.username}](https://github.com/${data.username})
+  Email: [${data.email}](${data.email})
+  `;
+  }
   
+  export default generateMarkdown;
