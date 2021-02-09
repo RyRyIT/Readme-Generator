@@ -4,7 +4,7 @@ function generateMarkdown(data) {
     
   # ${data.appname}
   
-  ![project image](./imgs/inaction.png)
+  ![project image]('../asssts/ReadMePic.PNG')
   
   ## Table of Contents
   * [Description](#description)

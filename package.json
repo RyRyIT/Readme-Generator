@@ -1,7 +1,7 @@
 {
   "name": "Readme-Generator",
   "version": "1.0.0",
-  "description": "The motivation to create a readme generator is to be able to create the readme by using the responeses from a user.",
+  "description": "",
   "main": "index.js", 
   "type": "module",
   "scripts": {

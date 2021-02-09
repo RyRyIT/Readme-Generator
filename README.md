@@ -2,7 +2,7 @@
     
   # ReadMe Generator
   
-  ![project image](./imgs/inaction.png)
+  ![project image]('../asssts/ReadMePic.PNG')
   
   ## Table of Contents
   * [Description](#description)
@@ -13,13 +13,13 @@
   * [Questions](#questions)
   
   ## Description
-  This quickly creates a Readme for projects 
+  It Creates a ReadMe file for any project
   
   ## Installation Instructions
-  By cloning the code from the repo and following the promots in the terminal once you have the everything installed
+  Clone the code from the repo, and run the npm commands
   
   ## Usage Information
-  Simply Put node index in the terminal and answer the questions
+  Once installed run node index in the terminal and answer the questions
   
   ## License
   ISC
